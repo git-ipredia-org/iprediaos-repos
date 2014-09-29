@@ -3,7 +3,7 @@ name=IprediaOS $releasever - $basearch
 failovermethod=priority
 baseurl=http://download.ipredia.i2p/pub/iprediaos/linux/releases/$releasever/Everything/$basearch/os/
         http://download.ipredia.org/pub/iprediaos/linux/releases/$releasever/Everything/$basearch/os/
-#mirrorlist=https://mirrors.ipredia.org/metalink?repo=iprediaos-$releasever&arch=$basearch
+#metalink=http://mirrors.ipredia.org/metalink?repo=iprediaos-$releasever&arch=$basearch
 enabled=1
 metadata_expire=7d
 gpgcheck=1
@@ -14,7 +14,7 @@ name=IprediaOS $releasever - $basearch - Debug
 failovermethod=priority
 baseurl=http://download.ipredia.i2p/pub/iprediaos/linux/releases/$releasever/Everything/$basearch/debug/
         http://download.ipredia.org/pub/iprediaos/linux/releases/$releasever/Everything/$basearch/debug/
-#mirrorlist=https://mirrors.ipredia.org/metalink?repo=iprediaos-debug-$releasever&arch=$basearch
+#metalink=http://mirrors.ipredia.org/metalink?repo=iprediaos-debug-$releasever&arch=$basearch
 enabled=0
 metadata_expire=7d
 gpgcheck=1
@@ -25,7 +25,7 @@ name=IprediaOS $releasever - Source
 failovermethod=priority
 baseurl=http://download.ipredia.i2p/pub/iprediaos/linux/releases/$releasever/Everything/source/SRPMS/
         http://download.ipredia.org/pub/iprediaos/linux/releases/$releasever/Everything/source/SRPMS/
-#mirrorlist=https://mirrors.ipredia.org/metalink?repo=iprediaos-source-$releasever&arch=$basearch
+#metalink=http://mirrors.ipredia.org/metalink?repo=iprediaos-source-$releasever&arch=$basearch
 enabled=0
 metadata_expire=7d
 gpgcheck=1
