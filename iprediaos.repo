@@ -7,7 +7,7 @@ baseurl=http://download.ipredia.i2p/pub/iprediaos/linux/releases/$releasever/Eve
 enabled=1
 metadata_expire=7d
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-iprediaos-$basearch
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-iprediaos-$releasever-$basearch
 
 [iprediaos-debuginfo]
 name=IprediaOS $releasever - $basearch - Debug
@@ -18,7 +18,7 @@ baseurl=http://download.ipredia.i2p/pub/iprediaos/linux/releases/$releasever/Eve
 enabled=0
 metadata_expire=7d
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-iprediaos-$basearch
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-iprediaos-$releasever-$basearch
 
 [iprediaos-source]
 name=IprediaOS $releasever - Source
@@ -29,4 +29,4 @@ baseurl=http://download.ipredia.i2p/pub/iprediaos/linux/releases/$releasever/Eve
 enabled=0
 metadata_expire=7d
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-iprediaos-$basearch
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-iprediaos-$releasever-$basearch
