@@ -1,11 +1,5 @@
-fedora-19-primary: i386 x86_64
-fedora-19-secondary: arm armhfp aarch64 ppc ppc64 s390 s390x
+iprediaos-1-primary: i386 x86_64
+iprediaos-1-secondary: arm armhfp aarch64 ppc ppc64 s390 s390x
 
-fedora-20-primary: i386 x86_64 armhfp
-fedora-20-secondary: aarch64 ppc ppc64 s390 s390x
-
-fedora-21-primary: i386 x86_64 armhfp
-fedora-21-secondary: aarch64 ppc64 ppc64le s390 s390x
-
-fedora-22-primary: i386 x86_64 armhfp
-fedora-22-secondary: aarch64 ppc64 ppc64le s390 s390x
+iprediaos-2-primary: i386 x86_64 armhfp
+iprediaos-2-secondary: aarch64 ppc ppc64 s390 s390x

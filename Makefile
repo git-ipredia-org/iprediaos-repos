@@ -1,6 +1,6 @@
-VERSION=$(shell awk '/Version:/ { print $$2 }' fedora-repos.spec)
-RELEASE=$(shell awk '/Release:/ { print $$2 }' fedora-repos.spec)
-GITTAG=fedora-repos-$(VERSION)
+VERSION=$(shell awk '/Version:/ { print $$2 }' iprediaos-repos.spec)
+RELEASE=$(shell awk '/Release:/ { print $$2 }' iprediaos-repos.spec)
+GITTAG=iprediaos-repos-$(VERSION)
 
 all:
 
